@@ -1,0 +1,26 @@
+<taskList>
+    <task output="Пирс" variables="3" generator="простой">
+        Запишите функцию, эквивалентную данной, используя только стрелки Пирса.
+    </task>
+    <task output="Шиффер" generator="простой">
+        Запишите функцию, эквивалентную данной, используя только штрихи Шиффера.
+    </task>
+    <task output="ТИ">
+        Запишите таблицу истинности функции.
+    </task>
+    <task output="ТИ" variables="3" generator="простой" varNames="xyz">
+        Запишите таблицу истинности функции.
+    </task>
+    <task output="ТИ" variables="3" generator="простой" length="9">
+        Запишите таблицу истинности функции.
+    </task>
+    <task output="ТИ" variables="3" length="15">
+        Запишите таблицу истинности функции.
+    </task>
+    <task input="СКНФ" output="СДНФ" variables="3" generator="СДНФ">
+        Запишите СКНФ функции по СДНФ.
+    </task>
+    <task input="ТИ" output="полином" variables="3" generator="СДНФ" varNames="xrd">
+        Запишите Полином Жегалкина функции, заданной данной таблицей истинности.
+    </task>
+</taskList>
